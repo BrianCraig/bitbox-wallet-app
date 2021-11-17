@@ -156,7 +156,6 @@ module.exports = {
     "react/jsx-tag-spacing": "off",
     "react/jsx-no-bind": "off",
     "react/jsx-key": ["error"],
-    "object-curly-spacing": ["warn", "always"],
     "@typescript-eslint/no-empty-interface": "off",
     "no-undef": "error",
     "object-curly-spacing": "off",

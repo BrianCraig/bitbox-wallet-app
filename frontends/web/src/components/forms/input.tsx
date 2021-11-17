@@ -19,12 +19,12 @@ import * as styles from './input.css';
 
 export interface Props {
     align?: 'left' | 'right';
-    autoComplete?: boolean | 'on' | 'off';
-    autoFocus?: boolean | 'false' | 'true';
+    autoComplete?: 'on' | 'off';
+    autoFocus?: boolean;
     className?: string;
     disabled?: boolean;
     error?: string | object;
-    getRef?: (node: HTMLInputElement) => void;
+    getRef?: (node: HTMLInputElement | null) => void;
     id?: string;
     label?: string;
     min?: string;
@@ -82,8 +82,7 @@ export default function Input({
                 )
             }
             <input
-                autocomplete="off"
-                autocorrect="off"
+                autoCorrect="off"
                 spellcheck={false}
                 type={type}
                 id={id}
