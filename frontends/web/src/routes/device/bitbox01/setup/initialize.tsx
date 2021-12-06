@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Component, createRef } from 'react';
+import { Component } from 'react';
 import { Button } from '../../../../components/forms';
 import { SwissMadeOpenSource } from '../../../../components/icon/logo';
 import { LanguageSwitch } from '../../../../components/language/language';
